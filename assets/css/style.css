@@ -1,0 +1,144 @@
+html, body {
+  background-color: #0a0a0a;
+  color: #e6e6e6;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:1em;
+}
+
+h1 {
+  font-size:3em;
+  font-weight:bold;
+  margin:10px auto 20px auto;
+  text-align:center;
+}
+
+a, a:visited {
+  color:#1B91E0;
+  text-decoration:none;
+  border-bottom:1px dotted;
+}
+
+a:hover {
+  border-bottom:1px solid;
+}
+
+div#main-content {
+  background-color: #222222;
+  margin:0px 10px 20px 10px;
+  padding:10px;
+}
+
+div#main-content div#user-info a#login {
+  display:block;
+  text-decoration:none;
+  font-weight:bold;
+  color:white;
+  padding:10px;
+  background-color:#3B5998;
+  text-align:center;
+  border:none;
+}
+
+div#main-content div#user-info img {
+  float:left;
+  margin-right:10px;
+}
+
+div#main-content div#user-info div#name {
+  line-height:50px;
+}
+
+div#content {
+  margin:0px 0px 0px 0px;
+}
+
+footer {
+  color:#d6d6d6;
+  text-align:center;
+  margin:0px auto 10px auto;
+  font-size:0.75em;
+}
+
+div.screen {
+  position:relative;
+}
+
+div.screen ul {
+  list-style-type: none;
+  margin: 0px;
+  padding:0px
+}
+
+div.screen#select-venue h2 {
+  text-align:center;
+}
+
+div.screen#select-venue ul li a {
+  margin:2px;
+  position:relative;
+  display:block;
+  padding:10px;
+  text-align:center;
+  border:none;
+  background-color:#1EA650;
+  color:white;
+}
+
+div.screen#bill .audience {
+}
+
+div.screen#bill ul {
+  margin-bottom:20px;
+}
+
+div.screen#bill ul li img {
+  float:left;
+  margin-right:10px;
+}
+
+div.screen#bill ul li {
+  line-height: 50px;
+  margin:2px;
+}
+
+div.screen#bill ul li.nowplaying {
+  background-color:#C2BB00;
+}
+
+div.screen#bill ul li.nowplaying a {
+  color:black;
+}
+
+div.screen#bill a#refresh {
+  position:absolute;
+  top:0px;
+  right:0px;
+  color:black;
+  background-color:#1EA650;
+  color:white;
+  border:none;
+  padding:10px;
+
+}
+
+div.screen#bill a#leave {
+  display:block;
+  text-align:center;
+  background-color:red;
+  color:white;
+  margin:2px;
+  border:none;
+  line-height:50px;
+}
+
+div.error {
+  margin:20px 0 0 0;
+  background-color:red;
+  color:white;
+  padding:10px;
+  text-align:center;
+}
+
+.clear {
+  clear:both;
+}
